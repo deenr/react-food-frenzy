@@ -67,6 +67,10 @@ const StyledNavLink = styled(NavLink)`
   h4 {
     color: white;
     font-size: 0.8rem;
+
+    @media (max-width: 320px) {
+      display: none;
+    }
   }
 
   svg {

@@ -70,7 +70,7 @@ const DetailWrapper = styled.div`
   gap: 2rem;
 
   @media (max-width: 960px) {
-    grid-template-columns: auto;
+    grid-template-columns: 1fr;
     grid-template-rows: auto auto;
   }
 
@@ -110,6 +110,10 @@ const InfoButton = styled.div`
 
   @media (max-width: 960px) {
     justify-content: space-between;
+  }
+
+  @media (max-width: 390px) {
+    flex-direction: column;
   }
 `;
 
