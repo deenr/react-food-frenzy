@@ -12,11 +12,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding: 0 20%;
-
-  @media (max-width: 960px) {
-    padding: 0 10%;
-  }
 }
 
 code {
